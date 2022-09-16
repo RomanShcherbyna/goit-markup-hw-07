@@ -536,7 +536,7 @@ text-transform: uppercase;
 }
 /* PORTFOLIO PAGE */
 
-.button-portf button {
+.button-list__button button {
   background-color: var(--backgroud_myteam);
   min-width: 73px;
   font-weight: 500;
@@ -553,38 +553,33 @@ text-transform: uppercase;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-portf button:hover {
+.button-list__button button:hover,
+.button-list__button button:focus {
   background-color: var(--hover_text_color);
   color: var(--white_color_text);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.button-portf button:focus {
-  background-color: var(--hover_text_color);
-  color: var(--white_color_text);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08):
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.button-list__button {
+  margin-right: 10px;
+}
+.button-list__button:last-child {
+  margin-right: 0px;
 }
 /* portfolio list */
-.portfolio-list {
+.button-list {
   display: flex;
    justify-content: center;
 }
-.button-portf {
-  margin-right: 10px;
-}
-.button-portf:last-child {
-  margin-right: 0px;
-}
+
 
 .portf-paragraf {
   font-size: 16px; 
   line-height: 30px;
   color: var(--second_text_color);
 }
-.portfolio-class {
+.portfolio {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -620,11 +615,8 @@ text-transform: uppercase;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
-/* .shadow:hover .img::after,
-.shadow:focus .img::after {
-  transform: translateY(0); 
-} */
-.hover-text-block-portf {
+
+.portfolio__text-hover {
   font-size: 18px;
   line-height: 1.55;
   position: absolute;
@@ -643,12 +635,12 @@ text-transform: uppercase;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.shadow:hover .hover-text-block-portf,
-.shadow:focus .hover-text-block-portf {
+.portfolio__link:hover .portfolio__text-hover,
+.portfolio__link:focus .portfolio__text-hover {
   transform: translateY(0);
 }
-.portfolio-class .shadow:hover, 
-.portfolio-class .shadow:active {
+.portfolio__link:hover, 
+.portfolio__link:active {
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .image-text .item {
