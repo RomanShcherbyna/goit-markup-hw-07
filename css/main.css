@@ -32,7 +32,7 @@
   padding-bottom: 60px;
 }
 .footer .footer-logo {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .adress {
@@ -898,6 +898,8 @@ header {
 }
 
 .modal-text .agreement {
+  margin-top: 20px;
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -907,6 +909,8 @@ header {
 }
 
 .modal .modal-text .comment-id {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
   resize: none;
   width: 448px;
   height: 120px;
@@ -976,6 +980,7 @@ modal-text__block:last-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 0px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;

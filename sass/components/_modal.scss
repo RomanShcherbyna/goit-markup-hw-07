@@ -73,12 +73,16 @@
 }
 
 .modal-text .agreement {
+    margin-top: 20px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
 
 }
 
 .modal .modal-text .comment-id {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
     resize: none;
     width: 448px;
     height: 120px;
@@ -130,7 +134,7 @@ modal-text__block:last-child {
 
 .modal .chek-button {
     display: flex;
-
+    border: 0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color: var(--hover_text_color);
