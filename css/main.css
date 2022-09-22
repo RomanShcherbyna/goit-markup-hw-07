@@ -539,7 +539,7 @@ header {
 }
 
 /* чем мы занимаемся */
-.what-we-doing__section {
+body .what-we-doing__section {
   padding-top: 0;
 }
 
@@ -928,8 +928,8 @@ header {
   margin-bottom: 10px;
 }
 
-modal-text__block:last-child {
-  margin-bottom: 20px;
+.modal-text .modal-text__block-last {
+  margin-bottom: 0px;
 }
 
 .modal-text__name {
@@ -951,24 +951,20 @@ modal-text__block:last-child {
       -ms-flex-align: center;
           align-items: center;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
+  font-size: 14px;
 }
 
 .agreement .element {
   margin-left: 3px;
 }
 
-.itempolicy__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  font-size: 14px;
-  line-height: 1.71;
+.itempolicy .element {
   color: rgb(33, 150, 243);
+}
+
+.itempolicy__text {
+  color: rgb(117, 117, 117);
 }
 
 .modal .agreement .element {
@@ -987,7 +983,6 @@ modal-text__block:last-child {
   background-color: var(--hover_text_color);
   color: var(--white_color_text);
   padding: 10px 55px;
-  margin-top: 30px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;

@@ -96,10 +96,9 @@
     margin-bottom: 10px;
 }
 
-modal-text__block:last-child {
-    margin-bottom: 20px;
+.modal-text .modal-text__block-last {
+    margin-bottom: 0px;
 }
-
 .modal-text__name {
     font-size: 12px;
     line-height: 14px;
@@ -112,19 +111,18 @@ modal-text__block:last-child {
     flex-direction: row-reverse;
     align-items: center;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
+    font-size: 14px;
 }
 
 .agreement .element {
     margin-left: 3px;
 }
-
-.itempolicy__text {
-    display: flex;
-    flex-direction: row-reverse;
-    font-size: 14px;
-    line-height: 1.71;
+.itempolicy .element {
     color: rgba(33, 150, 243, 1);
+}
+.itempolicy__text {
+    color: rgba(117, 117, 117, 1)
 }
 
 .modal .agreement .element {
@@ -140,7 +138,7 @@ modal-text__block:last-child {
     background-color: var(--hover_text_color);
     color: var(--white_color_text);
     padding: 10px 55px;
-    margin-top: 30px;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
